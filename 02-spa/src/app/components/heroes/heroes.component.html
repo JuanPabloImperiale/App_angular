@@ -1,0 +1,12 @@
+<h1>Heroes <small>Marvel / DC</small></h1>
+<hr>
+<hr>
+
+<div class="card-columns">
+
+
+    <!-- *ngFor="let heroe of heroes; let i = index"      ($event)= es para recibir a fuerzas el evento de salida de la claise hijo que es el parametro que se envia para llamar a la funcion seria el index -->
+    <app-heroe-tarjeta (heroeSeleccionado)="verHeroe( $event )" [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-tarjeta>
+
+
+</div>
