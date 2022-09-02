@@ -1,1 +1,7 @@
-# App_angular
+#10-APPS_angular
+SPA
+PIPES
+SPOTIAPP
+DESEOS
+AUTH-APP
+FireChat
